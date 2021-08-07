@@ -9,10 +9,10 @@ SO THAT you can review samples of their work and assess whether they're a good c
 ```
 
 ```
-in this appication I created a professional portfolio of myself. Inside the appication I made a 
+in this appication I created a professional portfolio of myself. Inside this proforlio is some infomation about me, the work I've some, and ways you can contact me.
 ```
 ## Screen shot
 ![screenshot](Image\screenshot.png)
 
-[deploy app]()
+[deploy app](https://jefferywojo98.github.io/Jeffery_Portfolio/)
 [github repo](https://github.com/Jefferywojo98/Jeffery_Portfolio)
