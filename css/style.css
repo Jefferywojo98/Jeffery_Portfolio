@@ -216,10 +216,9 @@ footer p{
 .icon{
     display: flex;
 }
-
+@media (max-width: 513px){
+.resume-container img{
+    height: 100px;
+}
+}
 /* END OF CONTACT */
-@media screen and (max-width: 992px) {
-img {
-    width: 90%
-}
-}
