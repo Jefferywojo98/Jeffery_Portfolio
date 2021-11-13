@@ -218,3 +218,8 @@ footer p{
 }
 
 /* END OF CONTACT */
+@media screen and (max-width: 992px) {
+img {
+    width: 90%
+}
+}
