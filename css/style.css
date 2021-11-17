@@ -61,18 +61,17 @@ a.active,a:hover{
     nav ul li{
         display: block;
     }
-    
 }
 /* navbar end */
 /* resizing my banner image */
 .wallpaper{
     width: 100%;
-  height: 500px;
+    height: 500px;
 }
 /* end of my banner imagse*/
 
 /* START ABOUT ME */
-.about-container{
+.main-container{
     width: 80%;
     height: 330px;
     background-color: #ffffff;
@@ -84,40 +83,35 @@ a.active,a:hover{
     justify-content: space-evenly;
     align-items: center;
 }
-.about-container img{
+@media (max-width:767px){
+    .main-container{
+        flex-direction: column;
+        display: flex;
+    }
+
+    .main-container img{
+        width: 50%;
+    }
+}
+.main-container img{
     height: 250px;
     border-radius: 100%;
 }
 .about-text{
-    width: 550px;
+    width: 270px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 12px;
 }
 /* END OF ABLE ME SECTION */
 
 /* START OF WORK SECTION */
-.work-container{
-    width: 80%;
-    height: 330px;
-    background-color: #ffffff;
-    border-radius: 20px;
-    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-    display: flex;
-    margin: 7% auto 20px auto;
-    position: relative;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.work-container img{
+
+/* .main-container img{
     height: 250px;
     border-radius: 100%;
-}
+} */
 
-.work-text{
-    width: 550px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 12px;
-}
+
 /* THE PROJECT OF WORK */
 .box-container{
     width: 80%;
@@ -216,9 +210,5 @@ footer p{
 .icon{
     display: flex;
 }
-@media (max-width: 513px){
-.resume-container img{
-    height: 100px;
-}
-}
+
 /* END OF CONTACT */
