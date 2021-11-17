@@ -25,8 +25,7 @@ ___
 
 ## Screenshots/Videos
 ___
-
-Initial Mobile Display   |
+Mobile Display   |
 :-------------------------:|
 ![Screenshot](Image/mobileDisplay.jpg)  |
  Desktop Display: ![Screenshot](Image/desktopDisplay.jpg)
